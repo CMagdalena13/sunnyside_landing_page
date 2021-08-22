@@ -502,11 +502,11 @@ h1.header-text {
 
 
 
-  /* /////////////////// */
- /* CLIENT TESTIMONIALS */
-/* /////////////////// */
+    /* /////////////////// */
+    /* CLIENT TESTIMONIALS */
+    /* /////////////////// */
 
-    .client-testimonials{
+    .client-testimonials {
         background-color: rgba(241, 223, 119, 0.1);
     }
 
@@ -526,7 +526,7 @@ h1.header-text {
         color: gray;
     }
 
-    div.clients{
+    div.clients {
         padding-bottom: 40px;
     }
 
@@ -542,7 +542,7 @@ h1.header-text {
         border-radius: 50%;
         width: 90px;
         margin: 0 auto;
-        
+
 
 
     }
@@ -566,20 +566,20 @@ h1.header-text {
     /* ACCESSORY IMAGE */
     /* /////////////// */
 
-    .accessory-images{
+    .accessory-images {
         display: flex;
-        
-       
 
-        
-        
+
+
+
+
     }
 
     .accessory-image-mobile {
         width: calc(100%/4);
-        
-        
-        
+
+
+
 
     }
 
