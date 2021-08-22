@@ -595,7 +595,7 @@ h1.header-text {
     .footer {
         background-color: hsl(168, 58%, 72%);
         padding: 4rem 0;
-        max-width: 1440px;
+        
         margin: 0 auto;
     }
 
