@@ -170,6 +170,64 @@ h1.header-text {
     display: none;
 }
 
+@media(min-width:320px) {
+    .image-header-mobile {
+        height: 100vh;
+    }
+
+    aside {
+        position: fixed;
+        top: 15vh;
+        border-radius: 10px;
+        z-index: 100;
+        left: -100%;
+        width: 80%;
+        background-color: white;
+        position: absolute;
+        text-decoration: none;
+        color: var(--dark-blue);
+        line-height: 50px;
+        padding: 8%;
+
+
+
+    }
+
+    aside .contact {
+        background-color: var(--yellow);
+        width: 60%;
+        border-radius: 30px;
+        margin: 0 auto;
+
+
+    }
+
+    aside.show {
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .header-text.none {
+        display: none;
+    }
+
+    .header-arrow.none {
+        display: none;
+    }
+
+    .accessory-image-mobile{
+        width: 320px;
+    }
+
+
+}
+@media(min-width:375px){
+    .accessory-image-mobile{
+        width: 100%;
+    }
+}
+
 @media(min-width:768px) {
     .popuo-accent {
         display: none;
