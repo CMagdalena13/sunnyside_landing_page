@@ -216,14 +216,15 @@ h1.header-text {
         display: none;
     }
 
-    .accessory-image-mobile{
+    .accessory-image-mobile {
         width: 320px;
     }
 
 
 }
-@media(min-width:375px){
-    .accessory-image-mobile{
+
+@media(min-width:375px) {
+    .accessory-image-mobile {
         width: 100%;
     }
 }
@@ -564,60 +565,64 @@ h1.header-text {
     /* CLIENT TESTIMONIALS */
     /* /////////////////// */
 
-    .client-testimonials {
-        background-color: rgba(241, 223, 119, 0.1);
-    }
+    @media(min-windth:320px) {
 
-    .clients {
-        padding-top: 40px;
-        height: 50vh;
-        display: flex;
-        text-align: center;
-    }
+        .client-testimonials {
+            background-color: rgba(241, 223, 119, 0.1);
+        }
 
-    h3.client {
-        /* text-align: center; */
-        padding: 40px;
-        font-size: 35px;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        color: gray;
-    }
+        .clients {
+            padding-top: 40px;
+            height: 50vh;
+            display: flex;
+            text-align: center;
+        }
 
-    div.clients {
-        padding-bottom: 40px;
-    }
+        h3.client {
+            /* text-align: center; */
+            padding: 40px;
+            font-size: 35px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: gray;
+        }
 
-    .clients p {
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 15px;
-        color: gray;
+        div.clients {
+            padding-bottom: 40px;
+        }
 
-    }
+        .clients p {
+            padding-right: 30px;
+            padding-left: 30px;
+            padding-top: 15px;
+            color: gray;
 
-    .clients img {
-        border-radius: 50%;
-        width: 90px;
-        margin: 0 auto;
+        }
+
+        .clients img {
+            border-radius: 50%;
+            width: 90px;
+            margin: 0 auto;
 
 
 
-    }
+        }
 
-    .clients .about {
-        padding-top: 30px;
-    }
+        .clients .about {
+            padding-top: 30px;
+        }
 
-    .client-name {
-        padding-top: 50px;
-        font-weight: bold;
-        color: gray;
-    }
+        .client-name {
+            padding-top: 50px;
+            font-weight: bold;
+            color: gray;
+        }
 
-    .client-occupation {
-        font-size: 18px;
-        color: gray;
+        .client-occupation {
+            font-size: 18px;
+            color: gray;
+        }
+
     }
 
     /* /////////////// */
@@ -701,76 +706,77 @@ h1.header-text {
     /* ////// */
     /* FOTTER */
     /* ////// */
+    @media(min-width:320px) {
+        .footer {
+            background-color: hsl(168, 58%, 72%);
+            padding: 4rem 0;
 
-    .footer {
-        background-color: hsl(168, 58%, 72%);
-        padding: 4rem 0;
+            margin: 0 auto;
+        }
 
-        margin: 0 auto;
-    }
+        .footer-logo {
+            width: 10rem;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            padding-top: 0.5rem;
 
-    .footer-logo {
-        width: 10rem;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        padding-top: 0.5rem;
+        }
 
-    }
+        .footer-links {
+            display: flex;
+            justify-content: space-around;
+            width: 20rem;
+            margin: 0 auto;
+            padding: 3rem 0;
+            list-style: none;
+        }
 
-    .footer-links {
-        display: flex;
-        justify-content: space-around;
-        width: 20rem;
-        margin: 0 auto;
-        padding: 3rem 0;
-        list-style: none;
-    }
+        .footer-link {
+            color: hsl(167, 40%, 24%);
+        }
 
-    .footer-link {
-        color: hsl(167, 40%, 24%);
-    }
+        .footer-link:hover {
+            color: white;
+            transition: color 0.15s;
+        }
 
-    .footer-link:hover {
-        color: white;
-        transition: color 0.15s;
-    }
+        .sr-only {
+            display: none;
 
-    .sr-only {
-        display: none;
+        }
 
-    }
+        .social-links {
+            display: flex;
+            justify-content: space-around;
+            width: 12rem;
+            margin: 0 auto;
+            padding-top: 2rem 0;
+        }
 
-    .social-links {
-        display: flex;
-        justify-content: space-around;
-        width: 12rem;
-        margin: 0 auto;
-        padding-top: 2rem 0;
-    }
+        .social-link:hover>svg>path {
+            fill: white;
+            transition: fill 0.15s;
 
-    .social-link:hover>svg>path {
-        fill: white;
-        transition: fill 0.15s;
+        }
 
-    }
+        .attribution {
+            font-size: 0.8rem;
+            text-align: center;
 
-    .attribution {
-        font-size: 0.8rem;
-        text-align: center;
+        }
 
-    }
+        .attribution {
+            color: hsl(167, 40%, 24%);
+            padding: 1.5rem;
+        }
 
-    .attribution {
-        color: hsl(167, 40%, 24%);
-        padding: 1.5rem;
-    }
+        .attribution a {
+            color: hsl(167, 40%, 24%);
+            ;
+        }
 
-    .attribution a {
-        color: hsl(167, 40%, 24%);
-        ;
-    }
-
-    .attribution a:hover {
-        text-decoration: underline;
+        .attribution a:hover {
+            text-decoration: underline;
+        }
     }
 }
